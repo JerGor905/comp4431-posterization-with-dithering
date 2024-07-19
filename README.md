@@ -14,6 +14,5 @@ The primary objective of the project is to examine how different matrix configur
 - Ability to utilize Error Diffusion Dithering on an input image to generate a black-and-white outcome.
 - Ability to apply Error Diffusion Dithering to achieve a posterization effect on an input image.
 
-## Demo video
-Uploading group4_video.mp4…
-
+## How to use
+- Please watch the **demo video** inside the **video** folder
