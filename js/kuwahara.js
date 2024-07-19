@@ -8,11 +8,7 @@
         console.log("Applying Kuwahara filter...123");
 
         /*
-         * TODO: You need to extend the kuwahara function to include different
-         * sizes of the filter
-         *
-         * You need to clearly understand the following code to make
-         * appropriate changes
+         * Extend the kuwahara function to include different sizes of the filter
          */
 
         /*

@@ -20,8 +20,7 @@
         ];
 
         /**
-         * TODO: You need to write the code to apply
-         * the two edge kernels appropriately
+         * Apply the two edge kernels appropriately
          */
 
         for (var y = 0; y < inputData.height; y++) {

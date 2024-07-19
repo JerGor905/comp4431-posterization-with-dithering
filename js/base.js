@@ -30,7 +30,7 @@
     console.log("Applying grayscale...");
 
     /**
-     * TODO: You need to create the grayscale operation here
+     * Create the grayscale operation
      */
 
     for (var i = 0; i < inputData.data.length; i += 4) {
@@ -52,7 +52,7 @@
     console.log("Applying brightness...");
 
     /**
-     * TODO: You need to create the brightness operation here
+     * Create the brightness operation
      */
 
     for (var i = 0; i < inputData.data.length; i += 4) {
@@ -73,7 +73,7 @@
     console.log("Applying contrast...");
 
     /**
-     * TODO: You need to create the brightness operation here
+     * Create the brightness operation
      */
 
     for (var i = 0; i < inputData.data.length; i += 4) {
@@ -112,7 +112,7 @@
     console.log("Applying posterization...");
 
     /**
-     * TODO: You need to create the posterization operation here
+     * Create the posterization operation
      */
 
     // Create the red, green and blue masks
@@ -133,7 +133,7 @@
     console.log("Applying thresholding...?");
 
     /**
-     * TODO: You need to create the thresholding operation here
+     * Create the thresholding operation
      */
 
     for (var i = 0; i < inputData.data.length; i += 4) {
@@ -158,7 +158,7 @@
     for (var i = 0; i < 256; i++) histogram[i] = 0;
 
     /**
-     * TODO: You need to build the histogram here
+     * Build the histogram
      */
     if (channel == "gray") {
       // Grayscale - average of RGB components
@@ -246,7 +246,7 @@
         range = max - min;
       console.log(minMax.min, minMax.max);
       /**
-       * TODO: You need to apply the correct adjustment to each pixel
+       * Apply the correct adjustment to each pixel
        */
 
       for (var i = 0; i < inputData.data.length; i += 4) {
@@ -258,8 +258,8 @@
       }
     } else {
       /**
-       * TODO: You need to apply the same procedure for each RGB channel
-       *       based on what you have done for the grayscale version
+       * Apply the same procedure for each RGB channel
+       * based on what you have done for the grayscale version
        */
       ["red", "green", "blue"].forEach((channel, idx) => {
         var histogram = buildHistogram(inputData, channel);

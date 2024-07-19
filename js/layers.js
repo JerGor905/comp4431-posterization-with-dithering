@@ -241,8 +241,7 @@
 
                 }
                 /**
-                 * TODO: You need to show the shade layer (shadeLayer) for
-                 * the non-edge pixels (transparent)
+                 * Show the shade layer (shadeLayer) for the non-edge pixels (transparent)
                  */
 
             }

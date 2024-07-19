@@ -92,8 +92,7 @@
         console.log("Applying comic color...?");
 
         /*
-         * TODO: You need to complete the comic colour function so that
-         * the pixels are mapped to one of the comic colours
+         * Map the pixels to one of the comic colours
          */
 
         for (var i = 0; i < inputData.data.length; i += 4) {

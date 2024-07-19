@@ -13,8 +13,7 @@
         console.log("Applying dithering...");
 
         /*
-         * TODO: You need to extend the dithering processing technique
-         * to include multiple matrix types
+         * Extend the dithering processing technique to include multiple matrix types
          */
 
         // At the moment, the code works only for the Bayer's 2x2 matrix
